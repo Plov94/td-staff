@@ -1,0 +1,1324 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TD Staff 1.2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/td-staff\n"
+"POT-Creation-Date: 2025-10-03 12:00+0000\n"
+"PO-Revision-Date: 2025-10-03 12:00+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Norwegian Bokmål <LL@li.org>\n"
+"Language: nb_NO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# From POT (untranslated by default)
+
+#: includes/admin/views/staff-view.php
+msgid "Unknown"
+msgstr "Ukjent"
+
+#: includes/admin/views/staff-view.php
+msgid "Invalid date"
+msgstr "Ugyldig dato"
+
+#: td-staff.php:50
+msgid "TD Staff: Another plugin is trying to access td_tech() before plugins_loaded. This may cause issues."
+msgstr "TD Staff: Et annet programtillegg prøver å bruke td_tech() før plugins_loaded. Dette kan skape problemer."
+
+#: includes/capabilities.php:35
+msgid "Failed to encrypt app password."
+msgstr "Kunne ikke kryptere app-passord."
+
+#: includes/data/class-td-staff-exception.php:156
+msgid "Staff ID is required."
+msgstr "Ansatt-ID er påkrevd."
+
+#: includes/data/class-td-staff-exception.php:160
+msgid "Exception type is required."
+msgstr "Unntakstype er påkrevd."
+
+#: includes/data/class-td-staff-exception.php:164
+msgid "Invalid exception type."
+msgstr "Ugyldig unntakstype."
+
+#: includes/data/class-td-staff-exception.php:168
+msgid "Start time is required."
+msgstr "Starttid er påkrevd."
+
+#: includes/data/class-td-staff-exception.php:172
+msgid "End time is required."
+msgstr "Slutttid er påkrevd."
+
+#: includes/data/class-td-staff-exception.php:181
+msgid "End time must be after start time."
+msgstr "Slutttid må være etter starttid."
+
+#: includes/data/class-td-staff-exception.php:184
+msgid "Invalid datetime format."
+msgstr "Ugyldig dato-/tidsformat."
+
+#: includes/helpers.php:144
+msgid "Sunday"
+msgstr "Søndag"
+
+#: includes/helpers.php:145
+msgid "Monday"
+msgstr "Mandag"
+
+#: includes/helpers.php:146
+msgid "Tuesday"
+msgstr "Tirsdag"
+
+#: includes/helpers.php:147
+msgid "Wednesday"
+msgstr "Onsdag"
+
+#: includes/helpers.php:148
+msgid "Thursday"
+msgstr "Torsdag"
+
+#: includes/helpers.php:149
+msgid "Friday"
+msgstr "Fredag"
+
+#: includes/helpers.php:150
+msgid "Saturday"
+msgstr "Lørdag"
+
+#: includes/helpers.php:162
+msgid "Invalid email address."
+msgstr "Ugyldig e-postadresse."
+
+#: includes/rest/class-rest-staff.php:123
+msgid "Staff member not found."
+msgstr "Ansatt ble ikke funnet."
+
+#: includes/rest/class-rest-staff.php:179
+msgid "Failed to update staff member."
+msgstr "Kunne ikke oppdatere ansatt."
+
+#: includes/rest/class-rest-staff.php:227
+msgid "Display name is required."
+msgstr "Visningsnavn er påkrevd."
+
+#: includes/rest/class-rest-staff.php:231
+msgid "Email is required."
+msgstr "E-post er påkrevd."
+
+#: includes/admin/class-admin-menu.php:43
+#: includes/admin/views/staff-list.php:20
+#: includes/admin/views/staff-edit.php:16
+msgid "Staff"
+msgstr "Ansatte"
+
+#: includes/admin/class-admin-menu.php:44
+#: includes/admin/class-admin-menu.php:50
+msgid "All Staff"
+msgstr "Alle ansatte"
+
+#: includes/admin/class-admin-menu.php:58
+#: includes/admin/views/staff-list.php:21
+msgid "Add New"
+msgstr "Legg til ny"
+
+#: includes/admin/class-admin-menu.php:66
+#: includes/admin/views/staff-edit.php:16
+msgid "Edit Staff Member"
+msgstr "Rediger ansatt"
+
+#: includes/admin/class-admin-menu.php:74
+#: includes/admin/views/staff-hours.php:24
+msgid "Work Hours"
+msgstr "Arbeidstid"
+
+#: includes/admin/class-admin-menu.php:82
+#: includes/admin/views/staff-exceptions.php:24
+msgid "Exceptions"
+msgstr "Unntak"
+
+#: includes/admin/class-admin-menu.php:90
+#: includes/admin/views/settings.php:13
+msgid "Settings"
+msgstr "Innstillinger"
+
+#: includes/admin/class-admin-menu.php:281
+msgid "Staff member updated successfully."
+msgstr "Ansatt ble oppdatert."
+
+#: includes/admin/class-admin-menu.php:284
+msgid "Staff member created successfully."
+msgstr "Ansatt ble opprettet."
+
+#: includes/admin/class-admin-menu.php:293
+msgid "Failed to save staff member."
+msgstr "Kunne ikke lagre ansatt."
+
+#: includes/admin/class-admin-menu.php:338
+msgid "Work hours updated successfully."
+msgstr "Arbeidstid ble oppdatert."
+
+#: includes/admin/class-admin-menu.php:376
+msgid "Exception added successfully."
+msgstr "Unntak ble lagt til."
+
+#: includes/admin/class-admin-menu.php:378
+msgid "Failed to add exception."
+msgstr "Kunne ikke legge til unntak."
+
+#: includes/admin/class-admin-menu.php:390
+msgid "Settings saved successfully."
+msgstr "Innstillinger ble lagret."
+
+#: includes/admin/views/staff-list.php:42
+msgid "All Status"
+msgstr "Alle statuser"
+
+#: includes/admin/views/staff-list.php:43
+#: includes/admin/views/staff-edit.php:175
+#: includes/admin/views/staff-list.php:129
+msgid "Active"
+msgstr "Aktiv"
+
+#: includes/admin/views/staff-list.php:44
+msgid "Inactive"
+msgstr "Inaktiv"
+
+#: includes/admin/views/staff-list.php:48
+msgid "All Skills"
+msgstr "Alle ferdigheter"
+
+#: includes/admin/views/staff-list.php:56
+#: includes/admin/views/staff-list.php:65
+msgid "Filter"
+msgstr "Filtrer"
+
+#: includes/admin/views/staff-list.php:60
+msgid "Search staff..."
+msgstr "Søk blant ansatte …"
+
+#: includes/admin/views/staff-list.php:61
+msgid "Search"
+msgstr "Søk"
+
+#: includes/admin/views/staff-list.php:69
+msgid "Bulk Actions"
+msgstr "Massehandlinger"
+
+#: includes/admin/views/staff-list.php:70
+msgid "Deactivate"
+msgstr "Deaktiver"
+
+#: includes/admin/views/staff-list.php:71
+msgid "Apply"
+msgstr "Bruk"
+
+#: includes/admin/views/staff-list.php:80
+msgid "Name"
+msgstr "Navn"
+
+#: includes/admin/views/staff-list.php:81
+#: includes/admin/views/staff-edit.php:42
+msgid "Email"
+msgstr "E-post"
+
+#: includes/admin/views/staff-list.php:82
+#: includes/admin/views/staff-edit.php:52
+msgid "Phone"
+msgstr "Telefon"
+
+#: includes/admin/views/staff-list.php:83
+#: includes/admin/views/staff-edit.php:93
+msgid "Skills"
+msgstr "Ferdigheter"
+
+#: includes/admin/views/staff-list.php:84
+msgid "Status"
+msgstr "Status"
+
+#: includes/admin/views/staff-list.php:85
+msgid "Actions"
+msgstr "Handlinger"
+
+#: includes/admin/views/staff-list.php:89
+msgid "No staff found."
+msgstr "Fant ingen ansatte."
+
+#: includes/admin/views/staff-list.php:103
+#: includes/admin/views/staff-list.php:110
+#: includes/admin/views/staff-list.php:149
+msgid "Edit"
+msgstr "Rediger"
+
+#: includes/admin/views/staff-list.php:113
+#: includes/admin/views/staff-list.php:151
+#: includes/admin/views/staff-edit.php:222
+msgid "Hours"
+msgstr "Arbeidstid"
+
+#: includes/admin/views/staff-list.php:117
+#: includes/admin/views/staff-list.php:153
+#: includes/admin/views/staff-edit.php:224
+msgid "Exceptions"
+msgstr "Unntak"
+
+#: includes/admin/views/staff-edit.php:32
+msgid "Display Name"
+msgstr "Visningsnavn"
+
+#: includes/admin/views/staff-edit.php:62
+msgid "WordPress User"
+msgstr "WordPress-bruker"
+
+#: includes/admin/views/staff-edit.php:65
+msgid "— No WordPress User —"
+
+#: includes/admin/views/staff-list.php:82
+msgid "Search staff..."
+msgstr "Søk blant ansatte …"
+msgstr "— Ingen WordPress-bruker —"
+msgid "Configured"
+msgstr "Konfigurert"
+
+#: includes/admin/views/settings.php:172
+msgid "Missing"
+msgstr "Mangler"
+#: includes/admin/views/staff-edit.php:74
+msgid "Missing (will fall back to KMS if present)"
+msgstr "Mangler (faller tilbake til KMS hvis tilgjengelig)"
+msgstr "Knytt denne ansatte til en WordPress-brukerkonto (valgfritt)."
+msgid "Missing (email lookup will use plaintext fallback)"
+msgstr "Mangler (e-postoppslag bruker klartekst som reserve)"
+#: includes/admin/views/staff-edit.php:80
+msgid "Timezone"
+msgstr "Tidssone"
+
+#: includes/admin/views/staff-edit.php:100
+msgid "Enter skills separated by commas (e.g., \"Plumbing, Electrical, HVAC\")."
+msgstr "Skriv inn ferdigheter separert med komma (f.eks. «Plumbing, Electrical, HVAC»)."
+
+#: includes/admin/views/staff-edit.php:106
+msgid "Weight"
+msgstr "Vekting"
+
+#: includes/admin/views/staff-edit.php:112
+msgid "Priority weight for assignment (1-100, higher = more preferred)."
+msgstr "Prioritetsvekting for tildeling (1–100, høyere = mer foretrukket)."
+
+#: includes/admin/views/staff-edit.php:118
+msgid "Cooldown Period"
+msgstr "Nedkjølingsperiode"
+
+#: includes/admin/views/staff-edit.php:124
+msgid "Minimum seconds between assignments (0 = no cooldown)."
+msgstr "Minste antall sekunder mellom tildelinger (0 = ingen nedkjøling)."
+
+#: includes/admin/views/staff-edit.php:130
+#: includes/admin/views/staff-list.php:131
+msgid "Status"
+msgstr "Status"
+
+#: includes/admin/views/staff-edit.php:140
+msgid "Nextcloud/CalDAV Integration"
+msgstr "Nextcloud/CalDAV-integrasjon"
+
+#: includes/admin/views/staff-edit.php:146
+msgid "Base URL"
+msgstr "Grunn-URL"
+
+#: includes/admin/views/staff-edit.php:155
+msgid "Calendar Path"
+msgstr "Kalendersti"
+
+#: includes/admin/views/staff-edit.php:164
+msgid "Username"
+msgstr "Brukernavn"
+
+#: includes/admin/views/staff-edit.php:173
+msgid "App Password"
+msgstr "App-passord"
+
+#: includes/admin/views/staff-edit.php:179
+msgid "Leave blank to keep existing password."
+msgstr "La stå tomt for å beholde eksisterende passord."
+
+#: includes/admin/views/staff-edit.php:181
+msgid "Generate an app password in your Nextcloud settings."
+msgstr "Generer et app-passord i Nextcloud-innstillingene dine."
+
+#: includes/admin/views/staff-edit.php:189
+msgid "Test Connection"
+msgstr "Test tilkobling"
+
+#: includes/admin/views/staff-edit.php:197
+msgid "Update Staff Member"
+msgstr "Oppdater ansatt"
+
+#: includes/admin/views/staff-edit.php:197
+msgid "Add Staff Member"
+msgstr "Legg til ansatt"
+
+#: includes/admin/views/staff-edit.php:199
+#: includes/admin/views/staff-hours.php:91
+#: includes/admin/views/staff-exceptions.php:130
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: includes/admin/views/staff-edit.php:207
+msgid "Quick Actions"
+msgstr "Hurtighandlinger"
+
+#: includes/admin/views/staff-edit.php:209
+#: includes/admin/views/staff-hours.php:99
+msgid "Manage Work Hours"
+msgstr "Administrer arbeidstid"
+
+#: includes/admin/views/staff-edit.php:211
+#: includes/admin/views/staff-exceptions.php:137
+msgid "Manage Exceptions"
+msgstr "Administrer unntak"
+
+#: includes/admin/views/staff-hours.php:28
+msgid "Back to Edit Staff Member"
+msgstr "Tilbake til rediger ansatt"
+
+#: includes/admin/views/staff-hours.php:37
+msgid "Set the regular work hours for this staff member. Times are in the staff member's local timezone."
+msgstr "Sett ordinær arbeidstid for denne ansatte. Tidene vises i den ansattes lokale tidssone."
+
+#: includes/admin/views/staff-hours.php:38
+msgid "Timezone:"
+msgstr "Tidssone:"
+
+#: includes/admin/views/staff-hours.php:43
+#: includes/admin/views/staff-hours.php:49
+msgid "Enabled"
+msgstr "Aktivert"
+
+#: includes/admin/views/staff-hours.php:44
+msgid "Day"
+msgstr "Dag"
+
+#: includes/admin/views/staff-hours.php:45
+msgid "Start Time"
+msgstr "Starttid"
+
+#: includes/admin/views/staff-hours.php:46
+msgid "End Time"
+msgstr "Sluttid"
+
+#: includes/admin/views/staff-hours.php:82
+msgid "Note: Currently only one time period per day is supported. Multiple shifts per day will be supported in a future version."
+msgstr "Merk: For øyeblikket støttes bare én tidsperiode per dag. Flere skift per dag vil bli støttet i en senere versjon."
+
+#: includes/admin/views/staff-hours.php:88
+msgid "Save Work Hours"
+msgstr "Lagre arbeidstid"
+
+#: includes/admin/views/staff-hours.php:96
+msgid "Related Actions"
+msgstr "Relaterte handlinger"
+
+#: includes/admin/views/staff-hours.php:101
+#: includes/admin/views/staff-exceptions.php:139
+msgid "All Staff"
+msgstr "Alle ansatte"
+
+#: includes/admin/views/staff-exceptions.php:28
+msgid "Back to Edit Staff Member"
+msgstr "Tilbake til rediger ansatt"
+
+#: includes/admin/views/staff-exceptions.php:36
+msgid "Add New Exception"
+msgstr "Legg til nytt unntak"
+
+#: includes/admin/views/staff-exceptions.php:45
+msgid "Type:"
+msgstr "Type:"
+
+#: includes/admin/views/staff-exceptions.php:47
+msgid "Select type..."
+msgstr "Velg type …"
+
+#: includes/admin/views/staff-exceptions.php:48
+#: includes/data/class-td-staff-exception.php:123
+msgid "Holiday"
+msgstr "Helligdag"
+
+#: includes/admin/views/staff-exceptions.php:49
+#: includes/data/class-td-staff-exception.php:125
+msgid "Sick Day"
+msgstr "Sykedag"
+
+#: includes/admin/views/staff-exceptions.php:50
+#: includes/data/class-td-staff-exception.php:127
+msgid "Custom"
+msgstr "Tilpasset"
+
+#: includes/admin/views/staff-exceptions.php:54
+msgid "Start:"
+msgstr "Start:"
+
+#: includes/admin/views/staff-exceptions.php:56
+#: includes/admin/views/staff-exceptions.php:61
+msgid "Time in %s"
+msgstr "Tid i %s"
+
+#: includes/admin/views/staff-exceptions.php:59
+msgid "End:"
+msgstr "Slutt:"
+
+#: includes/admin/views/staff-exceptions.php:64
+msgid "Note:"
+msgstr "Notat:"
+
+#: includes/admin/views/staff-exceptions.php:65
+msgid "Optional note..."
+msgstr "Valgfritt notat …"
+
+#: includes/admin/views/staff-exceptions.php:69
+msgid "Add Exception"
+msgstr "Legg til unntak"
+
+#: includes/admin/views/staff-exceptions.php:75
+msgid "Current Exceptions"
+msgstr "Gjeldende unntak"
+
+#: includes/admin/views/staff-exceptions.php:78
+msgid "No exceptions found."
+msgstr "Fant ingen unntak."
+
+#: includes/admin/views/staff-exceptions.php:83
+msgid "Type"
+msgstr "Type"
+
+#: includes/admin/views/staff-exceptions.php:84
+msgid "Start"
+msgstr "Start"
+
+#: includes/admin/views/staff-exceptions.php:85
+msgid "End"
+msgstr "Slutt"
+
+#: includes/admin/views/staff-exceptions.php:86
+msgid "Duration"
+msgstr "Varighet"
+
+#: includes/admin/views/staff-exceptions.php:87
+msgid "Note"
+msgstr "Notat"
+
+#: includes/admin/views/staff-exceptions.php:88
+msgid "Actions"
+msgstr "Handlinger"
+
+#: includes/admin/views/staff-exceptions.php:126
+msgid "Delete"
+msgstr "Slett"
+
+#: includes/admin/views/staff-exceptions.php:135
+msgid "Related Actions"
+msgstr "Relaterte handlinger"
+
+#: includes/admin/views/settings.php:13
+msgid "TD Staff Settings"
+msgstr "TD Staff-innstillinger"
+
+#: includes/admin/views/settings.php:22
+msgid "Default Nextcloud Base URL"
+msgstr "Standard Nextcloud-grunn-URL"
+
+#: includes/admin/views/settings.php:27
+msgid "Default base URL that will be pre-filled when adding new staff members."
+msgstr "Standard grunn-URL som forhåndsutfylles når nye ansatte legges til."
+
+#: includes/admin/views/settings.php:33
+msgid "Data Management"
+msgstr "Datahåndtering"
+
+#: includes/admin/views/settings.php:37
+msgid "Allow hard uninstall to remove all data"
+msgstr "Tillat hard avinstallering å fjerne all data"
+
+#: includes/admin/views/settings.php:40
+msgid "When enabled, uninstalling the plugin will permanently delete all staff data, work schedules, and exceptions. When disabled, data is preserved even after uninstall."
+msgstr "Når aktivert vil avinstallering slette all ansattdata, arbeidstider og unntak permanent. Når deaktivert, bevares data etter avinstallering."
+
+#: includes/admin/views/settings.php:46
+msgid "Save Settings"
+msgstr "Lagre innstillinger"
+
+#: includes/admin/views/settings.php:52
+msgid "API Information"
+msgstr "API-informasjon"
+
+#: includes/admin/views/settings.php:54
+msgid "This plugin provides both PHP and REST APIs for other plugins to access staff data."
+msgstr "Dette programtillegget tilbyr både PHP- og REST-API-er slik at andre tillegg kan få tilgang til ansattdata."
+
+#: includes/admin/views/settings.php:56
+msgid "REST API Endpoints"
+msgstr "REST API-endepunkter"
+
+#: includes/admin/views/settings.php:59
+msgid "Method"
+msgstr "Metode"
+
+#: includes/admin/views/settings.php:60
+msgid "Endpoint"
+msgstr "Endepunkt"
+
+#: includes/admin/views/settings.php:61
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: includes/admin/views/settings.php:66
+msgid "List all staff"
+msgstr "List alle ansatte"
+
+#: includes/admin/views/settings.php:70
+msgid "Get single staff member"
+msgstr "Hent én ansatt"
+
+#: includes/admin/views/settings.php:74
+msgid "Get staff work hours"
+msgstr "Hent arbeidstid for ansatt"
+
+#: includes/admin/views/settings.php:78
+msgid "Get staff exceptions"
+msgstr "Hent unntak for ansatt"
+
+#: includes/admin/views/settings.php:82
+msgid "Create new staff member (admin only)"
+msgstr "Opprett ny ansatt (kun admin)"
+
+#: includes/admin/views/settings.php:86
+msgid "Update staff member (admin only)"
+msgstr "Oppdater ansatt (kun admin)"
+
+#: includes/admin/views/settings.php:90
+msgid "PHP API Example"
+msgstr "PHP API-eksempel"
+
+#: includes/admin/views/settings.php:107
+msgid "System Information"
+msgstr "Systeminformasjon"
+
+#: includes/admin/views/settings.php:112
+msgid "Plugin Version"
+msgstr "Tilleggsversjon"
+
+#: includes/admin/views/settings.php:116
+msgid "API Version"
+msgstr "API-versjon"
+
+#: includes/admin/views/settings.php:120
+msgid "Database Version"
+msgstr "Databaseversjon"
+
+#: includes/admin/views/settings.php:124
+msgid "Encryption Available"
+msgstr "Kryptering tilgjengelig"
+
+#: includes/admin/views/settings.php:127
+msgid "Yes (AES-256-GCM)"
+msgstr "Ja (AES-256-GCM)"
+
+#: includes/admin/views/settings.php:129
+msgid "No (OpenSSL not available)"
+msgstr "Nei (OpenSSL er ikke tilgjengelig)"
+
+#: includes/admin/views/settings.php:134
+msgid "Total Staff"
+msgstr "Totalt antall ansatte"
+
+#: includes/admin/views/settings.php:140
+msgid "%d total (%d active)"
+msgstr "%d totalt (%d aktive)"
+
+#: includes/admin/views/settings.php:145
+msgid "WordPress Version"
+msgstr "WordPress-versjon"
+
+#: includes/admin/views/settings.php:149
+msgid "PHP Version"
+msgstr "PHP-versjon"
+
+# New strings for v1.1.0 - Admin Menu Updates
+#: includes/admin/class-admin-menu.php:189
+msgid "All Staff"
+msgstr "Alle ansatte"
+
+#: includes/admin/class-admin-menu.php:192
+msgid "Add New Staff"
+msgstr "Legg til ansatt"
+
+#: includes/admin/class-admin-menu.php:196
+msgid "Edit Staff Member"
+msgstr "Rediger ansatt"
+
+#: includes/admin/class-admin-menu.php:199
+msgid "View Staff Member"
+msgstr "Vis ansatt"
+
+# Staff Edit Form
+#: includes/admin/views/staff-edit.php:220
+msgid "Update Staff Member"
+msgstr "Oppdater ansatt"
+
+#: includes/admin/views/staff-edit.php:220
+msgid "Add Staff Member"
+msgstr "Legg til ansatt"
+
+# Settings Page Updates
+#: includes/admin/views/settings.php:16
+msgid "TD Staff Settings"
+msgstr "TD Staff-innstillinger"
+
+#: includes/admin/views/settings.php:34
+msgid "Default base URL that will be pre-filled when adding new staff members."
+msgstr "Standard grunn-URL som forhåndsutfylles når nye ansatte legges til."
+
+#: includes/admin/views/settings.php:50
+msgid "When enabled, uninstalling the plugin will permanently delete all staff data, work schedules, and exceptions. When disabled, data is preserved even after uninstall."
+msgstr "Når aktivert vil avinstallering slette all ansattdata, arbeidstider og unntak permanent. Når deaktivert, bevares data etter avinstallering."
+
+#: includes/admin/views/settings.php:70
+msgid "Export Staff Data"
+msgstr "Eksporter ansattdata"
+
+#: includes/admin/views/settings.php:71
+msgid "Export all staff data, work schedules, and exceptions. CalDAV credentials are excluded for security."
+msgstr "Eksporter all ansattdata, arbeidstider og unntak. CalDAV-legitimasjon ekskluderes av sikkerhetsgrunner."
+
+#: includes/admin/views/settings.php:90
+msgid "Include inactive staff"
+msgstr "Ta med inaktive ansatte"
+
+#: includes/admin/views/settings.php:109
+msgid "Import Staff Data"
+msgstr "Importer ansattdata"
+
+#: includes/admin/views/settings.php:110
+msgid "Import staff data from a previously exported JSON file."
+msgstr "Importer ansattdata fra en tidligere eksportert JSON-fil."
+
+#: includes/admin/views/settings.php:133
+msgid "Are you sure? This will modify your staff data."
+msgstr "Er du sikker? Dette vil endre ansattdataene dine."
+
+#: includes/admin/views/settings.php:142
+msgid "Imported staff will need CalDAV credentials configured manually."
+msgstr "Importerte ansatte må få CalDAV-legitimasjon konfigurert manuelt."
+
+#: includes/admin/views/settings.php:152
+msgid "This plugin provides both PHP and REST APIs for other plugins to access staff data."
+msgstr "Dette programtillegget tilbyr både PHP- og REST-API-er slik at andre tillegg kan få tilgang til ansattdata."
+
+#: includes/admin/views/settings.php:167
+msgid "List all staff"
+msgstr "List alle ansatte"
+
+#: includes/admin/views/settings.php:172
+msgid "Get single staff member"
+msgstr "Hent én ansatt"
+
+#: includes/admin/views/settings.php:177
+msgid "Get staff work hours"
+msgstr "Hent arbeidstid for ansatt"
+
+#: includes/admin/views/settings.php:182
+msgid "Get staff exceptions"
+msgstr "Hent unntak for ansatt"
+
+#: includes/admin/views/settings.php:187
+msgid "Create new staff member (admin only)"
+msgstr "Opprett ny ansatt (kun admin)"
+
+#: includes/admin/views/settings.php:192
+msgid "Update staff member (admin only)"
+msgstr "Oppdater ansatt (kun admin)"
+
+#: includes/admin/views/settings.php:216
+msgid "Total Staff"
+msgstr "Totalt antall ansatte"
+
+# Hours and Exceptions Views
+#: includes/admin/views/staff-hours.php:247
+msgid "All Staff"
+msgstr "Alle ansatte"
+
+#: includes/admin/views/staff-exceptions.php:159
+msgid "All Staff"
+msgstr "Alle ansatte"
+
+# Placeholders
+#: includes/admin/views/settings.php:32
+msgid "https://cloud.example.com"
+msgstr "https://cloud.example.com"
+
+#: includes/admin/views/staff-edit.php:177
+msgid "https://cloud.example.com"
+msgstr "https://cloud.example.com"
+
+#: includes/admin/views/staff-edit.php:188
+msgid "/remote.php/dav/calendars/username/personal/"
+msgstr "/remote.php/dav/calendars/username/personal/"
+
+# JavaScript Localized Strings
+#: includes/admin/class-admin-menu.php:77
+msgid "✅ Week Copied"
+msgstr "✅ Uken er kopiert"
+
+#: includes/admin/class-admin-menu.php:78
+msgid "📋 Copy Week"
+msgstr "📋 Kopier uke"
+
+#: includes/admin/class-admin-menu.php:79
+msgid "This will replace all current work hours. Continue?"
+msgstr "Dette vil erstatte all nåværende arbeidstid. Fortsette?"
+
+#: includes/admin/class-admin-menu.php:80
+msgid "This will clear all work hours. Continue?"
+msgstr "Dette vil slette all arbeidstid. Fortsette?"
+
+#: includes/admin/class-admin-menu.php:81
+msgid "This will replace current work hours with the selected template. Continue?"
+msgstr "Dette vil erstatte nåværende arbeidstid med valgt mal. Fortsette?"
+
+#: includes/admin/class-admin-menu.php:84
+msgid "Testing..."
+msgstr "Tester …"
+
+#: includes/admin/class-admin-menu.php:85
+msgid "Test Connection"
+msgstr "Test tilkobling"
+
+#: includes/admin/class-admin-menu.php:86
+msgid "Please fill in all CalDAV fields before testing."
+msgstr "Fyll ut alle CalDAV-felter før testing."
+
+#: includes/admin/class-admin-menu.php:87
+msgid "Connection test failed."
+msgstr "Tilkoblingstest mislyktes."
+
+#: includes/admin/class-admin-menu.php:90
+msgid "Are you sure you want to delete this exception?"
+msgstr "Er du sikker på at du vil slette dette unntaket?"
+
+#: includes/admin/class-admin-menu.php:91
+msgid "Failed to delete exception."
+msgstr "Kunne ikke slette unntak."
+
+#: includes/admin/class-admin-menu.php:94
+msgid "Please enter a valid email address."
+msgstr "Skriv inn en gyldig e-postadresse."
+
+#: includes/admin/class-admin-menu.php:95
+msgid "Please enter a valid phone number."
+msgstr "Skriv inn et gyldig telefonnummer."
+
+#: includes/admin/class-admin-menu.php:96
+msgid "URL must use HTTP or HTTPS protocol."
+msgstr "URL må bruke HTTP- eller HTTPS-protokoll."
+
+#: includes/admin/class-admin-menu.php:97
+msgid "Please enter a valid URL."
+msgstr "Skriv inn en gyldig URL."
+
+#: includes/admin/class-admin-menu.php:98
+msgid "All CalDAV fields are required when any CalDAV field is provided."
+msgstr "Alle CalDAV-felter er påkrevd når ett av dem er oppgitt."
+
+#: includes/admin/class-admin-menu.php:99
+msgid "Display name is required."
+msgstr "Visningsnavn er påkrevd."
+
+#: includes/admin/class-admin-menu.php:100
+msgid "Email is required."
+msgstr "E-post er påkrevd."
+
+#: includes/admin/class-admin-menu.php:101
+msgid "Weight must be between 1 and 100."
+msgstr "Vekting må være mellom 1 og 100."
+
+#: includes/admin/class-admin-menu.php:102
+msgid "Cooldown must be non-negative."
+msgstr "Nedkjøling kan ikke være negativ."
+
+#: includes/admin/class-admin-menu.php:105
+msgid "Remove"
+msgstr "Fjern"
+
+#: includes/admin/class-admin-menu.php:106
+msgid "to"
+msgstr "til"
+
+#: includes/admin/class-admin-menu.php:107
+msgid "+ Add Shift"
+msgstr "+ Legg til skift"
+
+# Admin compatibility notice
+#: includes/admin/class-admin-menu.php:151
+msgid "Compatibility Notice - TD Staff"
+msgstr "Kompatibilitetsvarsel – TD Staff"
+
+#: includes/admin/class-admin-menu.php:153
+msgid "Your WordPress version is outdated for PHP 8.1+"
+msgstr "Din WordPress-versjon er utdatert for PHP 8.1+"
+
+#: includes/admin/class-admin-menu.php:155
+msgid "You're running WordPress %s with PHP %s. For optimal compatibility and to eliminate PHP deprecation warnings, please update WordPress to version 6.0 or higher."
+msgstr "Du kjører WordPress %s med PHP %s. For best kompatibilitet og for å unngå PHP-depresieringsvarsler, oppdater WordPress til versjon 6.0 eller nyere."
+
+#: includes/admin/class-admin-menu.php:161
+msgid "The TD Staff plugin will continue to function, but you may see PHP 8.1 deprecation warnings in your error logs until WordPress is updated."
+msgstr "Tillegget TD Staff vil fortsatt fungere, men du kan se PHP 8.1-depresieringsvarsler i feilloggene dine til WordPress er oppdatert."
+
+#: includes/admin/class-admin-menu.php:165
+msgid "Update WordPress"
+msgstr "Oppdater WordPress"
+
+#: includes/admin/class-admin-menu.php:168
+msgid "Learn More"
+msgstr "Les mer"
+
+# Admin notices and actions
+#: includes/admin/class-admin-menu.php:841
+msgid "Cache purged and assets busted."
+msgstr "Cache tømt og ressurser oppdatert."
+
+#: includes/admin/class-admin-menu.php:851
+#: includes/admin/class-admin-menu.php:984
+#: includes/admin/class-admin-menu.php:1293
+#: includes/admin/class-admin-menu.php:1323
+msgid "Insufficient permissions."
+msgstr "Utilstrekkelige tillatelser."
+
+#: includes/admin/class-admin-menu.php:869
+msgid "Export failed: %s"
+msgstr "Eksport mislyktes: %s"
+
+#: includes/admin/class-admin-menu.php:988
+msgid "Please select a valid file to import."
+msgstr "Velg en gyldig fil å importere."
+
+#: includes/admin/class-admin-menu.php:999
+msgid "Invalid JSON file."
+msgstr "Ugyldig JSON-fil."
+
+#: includes/admin/class-admin-menu.php:1003
+msgid "Invalid file format. Missing staff data."
+msgstr "Ugyldig filformat. Mangler ansattdata."
+
+#: includes/admin/class-admin-menu.php:1009
+msgid "Successfully imported %d staff members."
+msgstr "Vellykket import av %d ansatte."
+
+#: includes/admin/class-admin-menu.php:1014
+msgid "Import failed: %s"
+msgstr "Import mislyktes: %s"
+
+#: includes/admin/class-admin-menu.php:1150
+msgid "Exception not found."
+msgstr "Unntak ble ikke funnet."
+
+#: includes/admin/class-admin-menu.php:1152
+msgid "Exception deleted successfully."
+msgstr "Unntak ble slettet."
+
+#: includes/admin/class-admin-menu.php:459
+#: includes/admin/class-admin-menu.php:477
+#: includes/admin/class-admin-menu.php:1181
+msgid "Invalid staff ID."
+msgstr "Ugyldig ansatt-ID."
+
+# Plural admin bulk actions
+#: includes/admin/class-admin-menu.php:404
+msgid "Deactivated %d staff member."
+msgid_plural "Deactivated %d staff members."
+msgstr[0] "Deaktiverte %d ansatt."
+msgstr[1] "Deaktiverte %d ansatte."
+
+# Menu titles
+#: includes/admin/class-admin-menu.php:292
+#: includes/admin/class-admin-menu.php:293
+msgid "TD Staff"
+msgstr "TD Staff"
+
+# REST: parameter descriptions and messages
+#: includes/rest/class-rest-schedule.php:42
+msgid "Include all weekdays with empty arrays"
+msgstr "Inkluder alle ukedager med tomme lister"
+
+#: includes/rest/class-rest-schedule.php:62
+msgid "Weekly hours array"
+msgstr "Ukentlig arbeidstidsliste"
+
+#: includes/rest/class-rest-schedule.php:81
+msgid "Start date (UTC)"
+msgstr "Startdato (UTC)"
+
+#: includes/rest/class-rest-schedule.php:86
+msgid "End date (UTC)"
+msgstr "Sluttdato (UTC)"
+
+#: includes/rest/class-rest-schedule.php:105
+msgid "Exception type"
+msgstr "Unntakstype"
+
+#: includes/rest/class-rest-schedule.php:111
+msgid "Start time (UTC)"
+msgstr "Starttid (UTC)"
+
+#: includes/rest/class-rest-schedule.php:117
+msgid "End time (UTC)"
+msgstr "Slutttid (UTC)"
+
+#: includes/rest/class-rest-schedule.php:123
+msgid "Optional note"
+msgstr "Valgfritt notat"
+
+#: includes/rest/class-rest-schedule.php:141
+msgid "Exception ID"
+msgstr "Unntaks-ID"
+
+#: includes/rest/class-rest-staff.php:361
+msgid "No CalDAV credentials configured for this staff member."
+msgstr "Ingen CalDAV-legitimasjon er konfigurert for denne ansatte."
+
+# CalDAV REST messages
+#: includes/rest/class-rest-caldav.php:156
+msgid "Connection successful! CalDAV server detected."
+msgstr "Tilkobling vellykket! CalDAV-server oppdaget."
+
+#: includes/rest/class-rest-caldav.php:167
+msgid "Authentication failed. Please check your username and app password."
+msgstr "Autentisering mislyktes. Kontroller brukernavn og app-passord."
+
+#: includes/rest/class-rest-caldav.php:174
+msgid "Calendar not found. Please check the calendar path."
+msgstr "Kalender ikke funnet. Kontroller kalenderstien."
+
+#: includes/rest/class-rest-caldav.php:181
+msgid "Unexpected response: HTTP %d"
+msgstr "Uventet svar: HTTP %d"
+
+#: includes/rest/class-rest-caldav.php:216
+msgid "PROPFIND test failed: %s"
+msgstr "PROPFIND-test mislyktes: %s"
+
+#: includes/rest/class-rest-caldav.php:227
+msgid "Connection successful! Calendar responded to PROPFIND request."
+msgstr "Tilkobling vellykket! Kalender svarte på PROPFIND-forespørsel."
+
+#: includes/rest/class-rest-caldav.php:241
+msgid "PROPFIND test returned HTTP %d. Server may not support CalDAV."
+msgstr "PROPFIND-test returnerte HTTP %d. Serveren støtter kanskje ikke CalDAV."
+
+#: includes/rest/class-rest-caldav.php:138
+msgid "Connection failed: %s"
+msgstr "Tilkobling mislyktes: %s"
+
+# Helpers validation messages (additional)
+#: includes/helpers.php:372
+msgid "Invalid URL format."
+msgstr "Ugyldig URL-format."
+
+#: includes/helpers.php:382
+msgid "URL must include a valid hostname."
+msgstr "URL må inneholde et gyldig vertsnavn."
+
+#: includes/helpers.php:408
+msgid "CalDAV base URL is required when CalDAV is configured."
+msgstr "CalDAV-grunn-URL er påkrevd når CalDAV er konfigurert."
+
+#: includes/helpers.php:412
+msgid "Calendar path is required when CalDAV is configured."
+msgstr "Kalendersti er påkrevd når CalDAV er konfigurert."
+
+#: includes/helpers.php:416
+msgid "Username is required when CalDAV is configured."
+msgstr "Brukernavn er påkrevd når CalDAV er konfigurert."
+
+#: includes/helpers.php:420
+msgid "App password is required when CalDAV is configured."
+msgstr "App-passord er påkrevd når CalDAV er konfigurert."
+
+#: includes/helpers.php:457
+msgid "Invalid phone number format."
+msgstr "Ugyldig telefonnummerformat."
+
+#: includes/helpers.php:516
+msgid "Email address is required."
+msgstr "E-postadresse er påkrevd."
+# Staff View additions
+#: includes/admin/views/staff-view.php:12
+msgid "View Staff Member: %s"
+msgstr "Vis ansatt: %s"
+
+#: includes/admin/views/staff-view.php:16
+msgid "\u2190 Back to List"
+msgstr "\u2190 Tilbake til listen"
+
+#: includes/admin/views/staff-view.php:24
+msgid "Basic Information"
+msgstr "Grunnleggende informasjon"
+
+#: includes/admin/views/staff-view.php:29
+msgid "Display Name:"
+msgstr "Visningsnavn:"
+
+#: includes/admin/views/staff-view.php:34
+msgid "Email:"
+msgstr "E-post:"
+
+#: includes/admin/views/staff-view.php:39
+msgid "Phone:"
+msgstr "Telefon:"
+
+#: includes/admin/views/staff-view.php:44
+msgid "Status:"
+msgstr "Status:"
+
+#: includes/admin/views/staff-view.php:53
+msgid "CalDAV Configuration"
+msgstr "CalDAV-konfigurasjon"
+
+#: includes/admin/views/staff-view.php:57
+msgid "CalDAV URL:"
+msgstr "CalDAV-URL:"
+
+#: includes/admin/views/staff-view.php:62
+msgid "CalDAV Username:"
+msgstr "CalDAV-brukernavn:"
+
+#: includes/admin/views/staff-view.php:67
+msgid "Calendar Path:"
+msgstr "Kalendersti:"
+
+#: includes/admin/views/staff-view.php:74
+msgid "No skills assigned"
+msgstr "Ingen ferdigheter tilordnet"
+
+#: includes/admin/views/staff-view.php:90
+msgid "Day"
+msgstr "Dag"
+
+#: includes/admin/views/staff-view.php:91
+msgid "Hours"
+msgstr "Arbeidstid"
+
+#: includes/admin/views/staff-view.php:116
+msgid "No work hours configured"
+msgstr "Ingen arbeidstid konfigurert"
+
+#: includes/admin/views/staff-view.php:121
+msgid "Exceptions & Time Off"
+msgstr "Unntak og fri"
+
+#: includes/admin/views/staff-view.php:129
+msgid "Date/Time"
+msgstr "Dato/tid"
+
+#: includes/admin/views/staff-view.php:149
+msgid "Unavailable"
+msgstr "Utilgjengelig"
+
+#: includes/admin/views/staff-view.php:151
+msgid "Sick Leave"
+msgstr "Sykefravær"
+
+#: includes/admin/views/staff-view.php:152
+msgid "Vacation"
+msgstr "Ferie"
+
+#: includes/admin/views/staff-view.php:181
+msgid "No upcoming exceptions or time-off scheduled"
+msgstr "Ingen kommende unntak eller fri planlagt"
+
+# Plural durations
+#: includes/admin/views/staff-exceptions.php
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d dag"
+msgstr[1] "%d dager"
+
+#: includes/admin/views/staff-exceptions.php
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d time"
+msgstr[1] "%d timer"
+
+#: includes/admin/views/staff-exceptions.php
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d minutt"
+msgstr[1] "%d minutter"
+
+# Staff List heading
+#: includes/admin/views/staff-list.php:15
+msgid "Staff Management"
+msgstr "Ansattadministrasjon"
+
+# Staff Hours extras
+#: includes/admin/views/staff-hours.php:52
+msgid "\ud83d\udcc1 Paste Week"
+msgstr "\ud83d\udcc1 Lim inn uke"
+
+#: includes/admin/views/staff-hours.php:55
+msgid "\ud83d\uddd1\ufe0f Clear All"
+msgstr "\ud83d\uddd1\ufe0f Tøm alt"
+
+#: includes/admin/views/staff-hours.php:59
+msgid "Quick Templates:"
+msgstr "Hurtigmaler:"
+
+#: includes/admin/views/staff-hours.php:61
+msgid "Select template..."
+msgstr "Velg mal …"
+
+#: includes/admin/views/staff-hours.php:62
+msgid "Weekdays 9-5"
+msgstr "Hverdager 9–17"
+
+#: includes/admin/views/staff-hours.php:63
+msgid "Weekdays 8-6"
+msgstr "Hverdager 8–18"
+
+#: includes/admin/views/staff-hours.php:64
+msgid "Full Week 9-5"
+msgstr "Hele uken 9–17"
+
+#: includes/admin/views/staff-hours.php:65
+msgid "Split Shift (9-12, 1-5)"
+msgstr "Delt skift (9–12, 13–17)"
+
+#: includes/admin/views/staff-hours.php:67
+msgid "Apply Template"
+msgstr "Bruk mal"
+
+#: includes/admin/views/staff-hours.php:151
+msgid "Add multiple shifts per day by clicking \"Add Shift\". Each shift represents a continuous work period."
+msgstr "Legg til flere skift per dag ved å klikke «Legg til skift». Hvert skift er en sammenhengende arbeidsperiode."
+
+# Back navigation updated labels
+#: includes/admin/views/staff-hours.php:28
+#: includes/admin/views/staff-exceptions.php:28
+msgid "Back to Edit Staff Member"
+msgstr "Tilbake til rediger ansatt"
+
+# Settings page extra strings
+#: includes/admin/views/settings.php:70
+msgid "Export/Import Data"
+msgstr "Eksporter/importer data"
+
+#: includes/admin/views/settings.php:87
+msgid "JSON Format (recommended)"
+msgstr "JSON-format (anbefalt)"
+
+#: includes/admin/views/settings.php:91
+msgid "CSV Format (basic data only)"
+msgstr "CSV-format (kun grunnleggende data)"
+
+#: includes/admin/views/settings.php:102
+msgid "Include work hours"
+msgstr "Ta med arbeidstid"
+
+#: includes/admin/views/settings.php:106
+msgid "Include exceptions"
+msgstr "Ta med unntak"
+
+#: includes/admin/views/settings.php:111
+msgid "Download Export"
+msgstr "Last ned eksport"
+
+#: includes/admin/views/settings.php:124
+msgid "Select JSON file:"
+msgstr "Velg JSON-fil:"
+
+#: includes/admin/views/settings.php:131
+msgid "Merge with existing data"
+msgstr "Slå sammen med eksisterende data"
+
+#: includes/admin/views/settings.php:135
+msgid "Replace all existing data (destructive!)"
+msgstr "Erstatt all eksisterende data (destruktivt!)"
+
+#: includes/admin/views/settings.php:140
+msgid "Import Data"
+msgstr "Importer data"
+
+#: includes/admin/views/settings.php:147
+msgid "Important Notes:"
+msgstr "Viktige merknader:"
+
+#: includes/admin/views/settings.php:149
+msgid "CalDAV credentials (app passwords) are never exported for security reasons."
+msgstr "CalDAV-legitimasjon (app-passord) eksporteres aldri av sikkerhetsgrunner."
+
+#: includes/admin/views/settings.php:151
+msgid "Always backup your database before importing data."
+msgstr "Ta alltid sikkerhetskopi av databasen før du importerer data."
+
+#: includes/admin/views/settings.php:152
+msgid "CSV exports contain basic information only (no hours or exceptions)."
+msgstr "CSV-eksporter inneholder kun grunnleggende informasjon (ingen arbeidstid eller unntak)."
+
+# Security & Encryption section
+#: includes/admin/views/settings.php:159
+msgid "Security & Encryption"
+msgstr "Sikkerhet og kryptering"
+
+#: includes/admin/views/settings.php:160
+msgid "Sensitive fields are encrypted at rest. For best security and search-by-email support, configure the following keys in wp-config.php or the environment:"
+msgstr "Sensitive felt er kryptert i hvile. For best sikkerhet og støtte for søk på e-post, konfigurer følgende nøkler i wp-config.php eller miljøet:"
+
+#: includes/admin/views/settings.php:162
+msgid "Sodium key for app passwords (XChaCha20-Poly1305)."
+msgstr "Sodium-nøkkel for app-passord (XChaCha20-Poly1305)."
+
+#: includes/admin/views/settings.php:163
+msgid "Sodium key for PII envelopes (emails/phones). Alias of KMS is also supported."
+msgstr "Sodium-nøkkel for PII-konvolutter (e-poster/telefoner). Alias til KMS støttes også."
+
+#: includes/admin/views/settings.php:164
+msgid "HMAC key for email blind index lookups."
+msgstr "HMAC-nøkkel for blinde e-postindekssøk."
+
+#: includes/admin/views/settings.php:166
+msgid "Keys should be 32 random bytes, base64-encoded. You can prefix values with base64: for clarity."
+msgstr "Nøkler bør være 32 tilfeldige byte, base64-kodet. Du kan prefikse verdier med base64: for klarhet."
+
+#: includes/admin/views/settings.php:188
+msgid "Migrate legacy CalDAV passwords \u2192 sodium"
+msgstr "Migrer eldre CalDAV-passord \u2192 sodium"
+
+#: includes/admin/views/settings.php:192
+msgid "Backfill PII envelopes/indexes"
+msgstr "Fyll opp PII-konvolutter/indekser"
+
+#: includes/admin/views/settings.php:195
+msgid "These operations are safe to run multiple times; they only update rows that need migration/backfill."
+msgstr "Disse operasjonene kan trygt kjøres flere ganger; de oppdaterer bare rader som trenger migrering/utfylling."
+
+# Cache Management section
+#: includes/admin/views/settings.php:202
+msgid "Cache Management"
+msgstr "Håndtering av hurtigbuffer"
+
+#: includes/admin/views/settings.php:203
+msgid "If you notice old assets (CSS/JS) or stale admin behavior, you can purge caches and bump the asset version used by this plugin to force browsers and caching layers to fetch fresh files."
+msgstr "Hvis du ser gamle ressurser (CSS/JS) eller utdatert oppførsel i admin, kan du tømme mellomlager og øke ressursversjonen som brukes av dette tillegget for å tvinge nettlesere og mellomlager til å hente ferske filer."
+
+#: includes/admin/views/settings.php:206
+msgid "Purge Cache & Refresh Assets"
+msgstr "Tøm cache og oppdater ressurser"
+
+#: includes/admin/views/settings.php:207
+msgid "Purge all caches and force-refresh assets now?"
+msgstr "Tøm all cache og tvangsoppdater ressurser nå?"
+
+#: includes/admin/views/settings.php:210
+msgid "This attempts to flush WordPress object cache and common caching plugins (if present), and increments an internal asset version to defeat cache/minifiers."
+msgstr "Dette forsøker å tømme WordPress-objektbuffer og vanlige cache-tillegg (om til stede), og øker en intern ressursversjon for å omgå cache/minifier."

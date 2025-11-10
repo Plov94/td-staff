@@ -1,0 +1,625 @@
+/* TD Staff Admin Styles */
+
+.td-tech-admin-page {
+    max-width: 1200px;
+}
+
+.td-tech-form-table {
+    margin-top: 20px;
+}
+
+.td-tech-form-table th {
+    width: 150px;
+    padding: 15px 10px 15px 0;
+    vertical-align: top;
+}
+
+.td-tech-form-table td {
+    padding: 15px 0;
+}
+
+.td-tech-skills-input {
+    width: 100%;
+    max-width: 400px;
+}
+
+.td-tech-skills-help {
+    font-style: italic;
+    color: #666;
+    margin-top: 5px;
+}
+
+.td-tech-hours-grid {
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.td-tech-hours-grid th,
+.td-tech-hours-grid td {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+.td-tech-hours-grid th {
+    background: #f9f9f9;
+    font-weight: 600;
+}
+
+.td-tech-hours-grid input[type="time"] {
+    width: 80px;
+}
+
+.td-tech-hours-grid input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.td-tech-nc-panel {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.td-tech-nc-panel h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.td-tech-test-connection {
+    margin-top: 10px;
+}
+
+.td-tech-test-result {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.td-tech-test-result.success {
+    background: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+}
+
+.td-tech-test-result.error {
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+}
+
+.td-tech-exceptions-list {
+    margin: 20px 0;
+}
+
+.td-tech-exceptions-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.td-tech-exceptions-list th,
+.td-tech-exceptions-list td {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+.td-tech-exceptions-list th {
+    background: #f9f9f9;
+}
+
+.td-tech-add-exception {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.td-tech-form-row {
+    margin-bottom: 15px;
+}
+
+.td-tech-form-row label {
+    display: inline-block;
+    width: 120px;
+    font-weight: 600;
+}
+
+.td-tech-form-row input,
+.td-tech-form-row select,
+.td-tech-form-row textarea {
+    width: 250px;
+}
+
+.td-tech-actions {
+    margin: 20px 0;
+}
+
+.td-tech-status-message {
+    margin: 15px 0;
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+
+.td-tech-status-message.updated {
+    background: #d4edda;
+    border-left: 4px solid #28a745;
+    color: #155724;
+}
+
+.td-tech-status-message.error {
+    background: #f8d7da;
+    border-left: 4px solid #dc3545;
+    color: #721c24;
+}
+
+/* Skill Bank UI */
+.td-tech-skill-bank {
+    margin-top: 10px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+}
+.td-tech-skill-bank-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+.td-tech-skill-bank-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+.td-tech-skill-chip.button {
+    background: #f0f0f1;
+    border-color: #c3c4c7;
+    color: #1d2327;
+}
+.td-tech-skill-chip.button:hover {
+    background: #e6e7e7;
+}
+
+.td-tech-skill-chip.is-active {
+    background: #0073aa;
+    color: #fff;
+    border-color: #0073aa;
+}
+
+.td-tech-pulse {
+    box-shadow: 0 0 0 2px rgba(0,115,170,0.25);
+    transition: box-shadow 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .td-tech-form-table th,
+    .td-tech-form-table td {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+    }
+    
+    .td-tech-form-table th {
+        width: 100%;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+    
+    .td-tech-hours-grid {
+        font-size: 14px;
+    }
+    
+    .td-tech-hours-grid th,
+    .td-tech-hours-grid td {
+        padding: 6px 8px;
+    }
+}
+
+/* Staff View Page Styles */
+.td-tech-view-container {
+    max-width: 1200px;
+    margin-top: 20px;
+}
+
+.td-tech-info-section {
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    padding: 30px;
+    margin-bottom: 25px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.td-tech-info-section h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #0073aa;
+    font-size: 20px;
+    color: #23282d;
+}
+
+.td-tech-info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.td-tech-info-item {
+    display: flex;
+    flex-direction: column;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 4px;
+    border-left: 4px solid #0073aa;
+}
+
+.td-tech-info-item strong {
+    margin-bottom: 8px;
+    color: #1d2327;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.td-tech-info-item span {
+    color: #646970;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.td-tech-status.active {
+    color: #00a32a;
+    font-weight: 600;
+}
+
+.td-tech-status.inactive {
+    color: #d63638;
+    font-weight: 600;
+}
+
+.td-tech-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.td-tech-skill-tag {
+    background: #f0f0f1;
+    border: 1px solid #c3c4c7;
+    color: #1d2327;
+    padding: 6px 12px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.td-tech-no-skills {
+    font-style: italic;
+    color: #646970;
+}
+
+.td-tech-data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.td-tech-data-table th {
+    text-align: left;
+    padding: 12px 15px;
+    border-bottom: 2px solid #0073aa;
+    background: #f6f7f7;
+    font-weight: 600;
+    color: #1d2327;
+}
+
+.td-tech-data-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #f0f0f1;
+    vertical-align: top;
+}
+
+.td-tech-data-table tr:hover {
+    background: #f9f9f9;
+}
+
+.td-tech-exception-type {
+    padding: 4px 8px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.td-tech-exception-unavailable {
+    background: #dc3232;
+    color: white;
+}
+
+.td-tech-exception-holiday {
+    background: #00a32a;
+    color: white;
+}
+
+.td-tech-exception-sick {
+    background: #ff6900;
+    color: white;
+}
+
+.td-tech-exception-vacation {
+    background: #0073aa;
+    color: white;
+}
+
+.td-tech-actions {
+    margin-top: 30px;
+    padding: 25px;
+    background: #f6f7f7;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.td-tech-actions .button {
+    margin: 0 8px;
+    min-width: 140px;
+}
+
+.td-tech-empty-message {
+    color: #646970;
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 4px;
+    border: 1px dashed #c3c4c7;
+}
+
+@media (max-width: 768px) {
+    .td-tech-info-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .td-tech-actions .button {
+        display: block;
+        margin: 5px 0;
+        width: 100%;
+    }
+}
+
+
+/* 2x2 Grid layout for main sections */
+.wp-list-table th.column-id { width: 48px; }
+.wp-list-table .column-id { width: 48px; text-align: left; padding-left: 6px; padding-right: 6px; }
+.wp-list-table .column-id code { background: #f6f7f7; padding: 1px 4px; border-radius: 3px; }
+
+/* Slightly reduce left padding on Name column */
+.wp-list-table .column-name { padding-left: 6px; }
+
+/* 2x2 Grid layout for main sections */
+.td-tech-sections-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.td-tech-sections-row .td-tech-info-section {
+    margin-bottom: 0;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.td-tech-sections-row .td-tech-info-section h2 {
+    flex-shrink: 0;
+}
+
+.td-tech-sections-row .td-tech-info-section .td-tech-info-grid,
+.td-tech-sections-row .td-tech-info-section .td-tech-skills {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* Full-width sections for work hours and exceptions */
+.td-tech-full-width-section {
+    grid-column: 1 / -1;
+}
+
+/* Responsive: stack on smaller screens */
+@media (max-width: 900px) {
+    .td-tech-sections-row {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, auto);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Boxes with tiny bit of breathing room */
+.td-tech-sections-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 12px;
+    align-items: flex-start;
+}
+
+.td-tech-sections-row .td-tech-info-section {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 4px 8px;
+    margin-bottom: 0;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.03);
+    flex: 0 0 auto;
+    width: auto;
+    min-width: 160px;
+    max-width: 250px;
+    height: fit-content;
+    min-height: unset;
+}
+
+.td-tech-sections-row .td-tech-info-section h2 {
+    margin: 0 0 2px 0;
+    font-size: 13px;
+    font-weight: 600;
+    color: #23282d;
+    border-bottom: 1px solid #eee;
+    padding: 0 0 1px 0;
+}
+
+/* Keep perfect sub-box spacing */
+.td-tech-info-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.td-tech-info-item {
+    margin: 0;
+    padding: 2px 6px;
+    line-height: 1.2;
+    display: block;
+    background: #f9f9f9;
+    border-radius: 2px;
+    border-left: 2px solid #0073aa;
+}
+
+.td-tech-info-item strong {
+    display: inline-block;
+    margin: 0;
+    font-size: 11px;
+    font-weight: 600;
+    color: #666;
+    text-transform: uppercase;
+    width: 70px;
+}
+
+.td-tech-info-item span {
+    font-size: 13px;
+    color: #333;
+    margin-left: 4px;
+}
+
+/* Skills styling */
+.td-tech-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin: 0;
+    padding: 0;
+}
+
+.td-tech-skill-tag {
+    background: linear-gradient(135deg, #0073aa, #005a87);
+    color: white;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    line-height: 1.2;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    transition: all 0.2s ease;
+}
+
+.td-tech-skill-tag:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+.td-tech-skill-tag .skill-level {
+    opacity: 0.9;
+    font-weight: 500;
+    margin-left: 1px;
+}
+
+/* Different colors for different skill levels */
+.td-tech-skill-tag:has(.skill-level:contains("Beginner")) {
+    background: linear-gradient(135deg, #28a745, #1e7e34);
+}
+
+.td-tech-skill-tag:has(.skill-level:contains("Intermediate")) {
+    background: linear-gradient(135deg, #ffc107, #e0a800);
+    color: #333;
+}
+
+.td-tech-skill-tag:has(.skill-level:contains("Advanced")) {
+    background: linear-gradient(135deg, #fd7e14, #e8590c);
+}
+
+.td-tech-skill-tag:has(.skill-level:contains("Expert")) {
+    background: linear-gradient(135deg, #dc3545, #c82333);
+}
+
+.td-tech-skill-tag:has(.skill-level:contains("Master")) {
+    background: linear-gradient(135deg, #6f42c1, #5a2d91);
+}
+
+/* Status styling */
+.td-tech-status.active {
+    color: #00a32a;
+    font-weight: 600;
+    background: #e8f5e8;
+    padding: 1px 3px;
+    border-radius: 2px;
+    font-size: 13px;
+}
+
+.td-tech-status.inactive {
+    color: #d63638;
+    font-weight: 600;
+    background: #fdeaea;
+    padding: 1px 3px;
+    border-radius: 2px;
+    font-size: 13px;
+}
+
+/* Form Validation Styles */
+.td-tech-error {
+    border-color: #d63638 !important;
+    box-shadow: 0 0 0 1px #d63638 !important;
+}
+
+.td-tech-error-message {
+    color: #d63638;
+    font-size: 12px;
+    margin-top: 2px;
+    display: block;
+}
+
+.td-tech-form-table .td-tech-error {
+    background-color: #fef7f7;
+}
+
+.td-tech-form-table td {
+    position: relative;
+}
+

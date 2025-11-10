@@ -1,0 +1,1257 @@
+# Copyright (C) 2024 TD Staff
+# This file is distributed under the same license as the TD Staff package.
+msgid ""
+msgstr ""
+"Project-Id-Version: TD Staff 1.2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/td-staff\n"
+"POT-Creation-Date: 2025-10-03 12:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+# Staff View additions
+#: includes/admin/views/staff-view.php:12
+msgid "View Staff Member: %s"
+msgstr ""
+
+#: includes/admin/views/staff-view.php:16
+msgid "\u2190 Back to List"
+msgstr ""
+
+#: includes/admin/views/staff-view.php:24
+msgid "Basic Information"
+msgstr ""
+
+#: includes/admin/views/staff-view.php:29
+msgid "Display Name:"
+msgstr ""
+
+#: includes/admin/views/staff-view.php:34
+msgid "Email:"
+msgstr ""
+
+#: includes/admin/views/staff-view.php:39
+msgid "Phone:"
+msgstr ""
+
+#: includes/admin/views/staff-view.php:44
+msgid "Status:"
+msgstr ""
+
+#: includes/admin/views/staff-view.php:53
+msgid "CalDAV Configuration"
+msgstr ""
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+# Staff Hours extras
+#: includes/admin/views/staff-hours.php:52
+ msgid "Update Staff Member"
+msgstr ""
+
+ msgid "Add Staff Member"
+msgid "\ud83d\uddd1\ufe0f Clear All"
+msgstr ""
+ msgid "Back to Edit Staff Member"
+#: includes/admin/views/staff-hours.php:59
+msgid "Quick Templates:"
+ msgid "Set the regular work hours for this staff member. Times are in the staff member's local timezone."
+
+#: includes/admin/views/staff-hours.php:61
+msgid "Select template..."
+msgstr ""
+
+#: includes/admin/views/staff-hours.php:62
+msgid "Weekdays 9-5"
+msgstr ""
+
+#: includes/admin/views/staff-hours.php:63
+msgid "Weekdays 8-6"
+msgstr ""
+
+#: includes/admin/views/staff-hours.php:64
+msgid "Full Week 9-5"
+msgstr ""
+
+#: includes/admin/views/staff-hours.php:65
+msgid "Split Shift (9-12, 1-5)"
+msgstr ""
+
+#: includes/admin/views/staff-hours.php:67
+msgid "Apply Template"
+msgstr ""
+
+#: includes/admin/views/staff-hours.php:151
+msgid "Add multiple shifts per day by clicking \"Add Shift\". Each shift represents a continuous work period."
+msgstr ""
+
+# Back navigation updated labels
+#: includes/admin/views/staff-hours.php:28
+#: includes/admin/views/staff-exceptions.php:28
+msgid "Back to Edit Staff Member"
+msgstr ""
+
+# Settings page extra strings
+#: includes/admin/views/settings.php:70
+msgid "Export/Import Data"
+msgstr ""
+
+#: includes/admin/views/settings.php:87
+msgid "JSON Format (recommended)"
+msgstr ""
+
+#: includes/admin/views/settings.php:91
+msgid "CSV Format (basic data only)"
+msgstr ""
+
+#: includes/admin/views/settings.php:102
+msgid "Include work hours"
+msgstr ""
+
+#: includes/admin/views/settings.php:106
+msgid "Include exceptions"
+msgstr ""
+
+#: includes/admin/views/settings.php:111
+msgid "Download Export"
+msgstr ""
+
+#: includes/admin/views/settings.php:124
+msgid "Select JSON file:"
+msgstr ""
+
+#: includes/admin/views/settings.php:131
+msgid "Merge with existing data"
+msgstr ""
+
+#: includes/admin/views/settings.php:135
+msgid "Replace all existing data (destructive!)"
+msgstr ""
+
+#: includes/admin/views/settings.php:140
+msgid "Import Data"
+msgstr ""
+
+#: includes/admin/views/settings.php:147
+msgid "Important Notes:"
+msgstr ""
+
+#: includes/admin/views/settings.php:149
+msgid "CalDAV credentials (app passwords) are never exported for security reasons."
+msgstr ""
+
+#: includes/admin/views/settings.php:151
+msgid "Always backup your database before importing data."
+msgstr ""
+
+#: includes/admin/views/settings.php:152
+msgid "CSV exports contain basic information only (no hours or exceptions)."
+msgstr ""
+
+# Security & Encryption section
+#: includes/admin/views/settings.php:159
+msgid "Security & Encryption"
+msgstr ""
+
+#: includes/admin/views/settings.php:160
+msgid "Sensitive fields are encrypted at rest. For best security and search-by-email support, configure the following keys in wp-config.php or the environment:"
+msgstr ""
+
+#: includes/admin/views/settings.php:162
+msgid "Sodium key for app passwords (XChaCha20-Poly1305)."
+msgstr ""
+
+#: includes/admin/views/settings.php:163
+msgid "Sodium key for PII envelopes (emails/phones). Alias of KMS is also supported."
+msgstr ""
+
+#: includes/admin/views/settings.php:164
+msgid "HMAC key for email blind index lookups."
+msgstr ""
+
+#: includes/admin/views/settings.php:166
+msgid "Keys should be 32 random bytes, base64-encoded. You can prefix values with base64: for clarity."
+msgstr ""
+
+#: includes/admin/views/settings.php:188
+msgid "Migrate legacy CalDAV passwords \u2192 sodium"
+msgstr ""
+
+#: includes/admin/views/settings.php:192
+msgid "Backfill PII envelopes/indexes"
+msgstr ""
+
+#: includes/admin/views/settings.php:195
+msgid "These operations are safe to run multiple times; they only update rows that need migration/backfill."
+msgstr ""
+
+# Cache Management section
+#: includes/admin/views/settings.php:202
+msgid "Cache Management"
+msgstr ""
+
+#: includes/admin/views/settings.php:203
+msgid "If you notice old assets (CSS/JS) or stale admin behavior, you can purge caches and bump the asset version used by this plugin to force browsers and caching layers to fetch fresh files."
+msgstr ""
+
+#: includes/admin/views/settings.php:206
+msgid "Purge Cache & Refresh Assets"
+msgstr ""
+
+#: includes/admin/views/settings.php:207
+msgid "Purge all caches and force-refresh assets now?"
+msgstr ""
+
+#: includes/admin/views/settings.php:210
+msgid "This attempts to flush WordPress object cache and common caching plugins (if present), and increments an internal asset version to defeat cache/minifiers."
+msgstr ""
+
+# Additional settings status labels and search placeholder
+#: includes/admin/views/settings.php:172
+msgid "Configured"
+msgstr ""
+
+#: includes/admin/views/settings.php:172
+msgid "Missing"
+msgstr ""
+
+#: includes/admin/views/settings.php:176
+msgid "Missing (will fall back to KMS if present)"
+msgstr ""
+
+#: includes/admin/views/settings.php:180
+msgid "Missing (email lookup will use plaintext fallback)"
+msgstr ""
+
+#: includes/admin/views/staff-list.php:82
+msgid "Search staff..."
+msgstr ""
+
+# Admin compatibility notice
+#: includes/admin/class-admin-menu.php:151
+msgid "Compatibility Notice - TD Staff"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:153
+msgid "Your WordPress version is outdated for PHP 8.1+"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:155
+msgid "You're running WordPress %s with PHP %s. For optimal compatibility and to eliminate PHP deprecation warnings, please update WordPress to version 6.0 or higher."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:161
+msgid "The TD Staff plugin will continue to function, but you may see PHP 8.1 deprecation warnings in your error logs until WordPress is updated."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:165
+msgid "Update WordPress"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:168
+msgid "Learn More"
+msgstr ""
+
+# Admin notices and actions
+#: includes/admin/class-admin-menu.php:841
+msgid "Cache purged and assets busted."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:851
+#: includes/admin/class-admin-menu.php:984
+#: includes/admin/class-admin-menu.php:1293
+#: includes/admin/class-admin-menu.php:1323
+msgid "Insufficient permissions."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:869
+msgid "Export failed: %s"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:988
+msgid "Please select a valid file to import."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:999
+msgid "Invalid JSON file."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:1003
+msgid "Invalid file format. Missing staff data."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:1009
+msgid "Successfully imported %d staff members."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:1014
+msgid "Import failed: %s"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:1150
+msgid "Exception not found."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:1152
+msgid "Exception deleted successfully."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:459
+#: includes/admin/class-admin-menu.php:477
+#: includes/admin/class-admin-menu.php:1181
+msgid "Invalid staff ID."
+msgstr ""
+
+# Plural admin bulk actions
+#: includes/admin/class-admin-menu.php:404
+msgid "Deactivated %d staff member."
+msgid_plural "Deactivated %d staff members."
+msgstr ""
+
+# Menu titles
+#: includes/admin/class-admin-menu.php:292
+#: includes/admin/class-admin-menu.php:293
+msgid "TD Staff"
+msgstr ""
+
+# REST: parameter descriptions and messages
+#: includes/rest/class-rest-schedule.php:42
+msgid "Include all weekdays with empty arrays"
+msgstr ""
+
+#: includes/rest/class-rest-schedule.php:62
+msgid "Weekly hours array"
+msgstr ""
+
+#: includes/rest/class-rest-schedule.php:81
+msgid "Start date (UTC)"
+msgstr ""
+
+#: includes/rest/class-rest-schedule.php:86
+msgid "End date (UTC)"
+msgstr ""
+
+#: includes/rest/class-rest-schedule.php:105
+msgid "Exception type"
+msgstr ""
+
+#: includes/rest/class-rest-schedule.php:111
+msgid "Start time (UTC)"
+msgstr ""
+
+#: includes/rest/class-rest-schedule.php:117
+msgid "End time (UTC)"
+msgstr ""
+
+#: includes/rest/class-rest-schedule.php:123
+msgid "Optional note"
+msgstr ""
+
+#: includes/rest/class-rest-schedule.php:141
+msgid "Exception ID"
+msgstr ""
+
+#: includes/rest/class-rest-staff.php:361
+msgid "No CalDAV credentials configured for this staff member."
+msgstr ""
+
+# CalDAV REST messages
+#: includes/rest/class-rest-caldav.php:156
+msgid "Connection successful! CalDAV server detected."
+msgstr ""
+
+#: includes/rest/class-rest-caldav.php:167
+msgid "Authentication failed. Please check your username and app password."
+msgstr ""
+
+#: includes/rest/class-rest-caldav.php:174
+msgid "Calendar not found. Please check the calendar path."
+msgstr ""
+
+#: includes/rest/class-rest-caldav.php:181
+msgid "Unexpected response: HTTP %d"
+msgstr ""
+
+#: includes/rest/class-rest-caldav.php:216
+msgid "PROPFIND test failed: %s"
+msgstr ""
+
+#: includes/rest/class-rest-caldav.php:227
+msgid "Connection successful! Calendar responded to PROPFIND request."
+msgstr ""
+
+#: includes/rest/class-rest-caldav.php:241
+msgid "PROPFIND test returned HTTP %d. Server may not support CalDAV."
+msgstr ""
+
+#: includes/rest/class-rest-caldav.php:138
+msgid "Connection failed: %s"
+msgstr ""
+
+# Helpers validation messages (additional)
+#: includes/helpers.php:372
+msgid "Invalid URL format."
+msgstr ""
+
+#: includes/helpers.php:382
+msgid "URL must include a valid hostname."
+msgstr ""
+
+#: includes/helpers.php:408
+msgid "CalDAV base URL is required when CalDAV is configured."
+msgstr ""
+
+#: includes/helpers.php:412
+msgid "Calendar path is required when CalDAV is configured."
+msgstr ""
+
+#: includes/helpers.php:416
+msgid "Username is required when CalDAV is configured."
+msgstr ""
+
+#: includes/helpers.php:420
+msgid "App password is required when CalDAV is configured."
+msgstr ""
+
+#: includes/helpers.php:457
+msgid "Invalid phone number format."
+msgstr ""
+
+#: includes/helpers.php:516
+msgid "Email address is required."
+msgstr ""
+#: includes/admin/views/staff-view.php
+msgid "Unknown"
+msgstr ""
+
+#: includes/admin/views/staff-view.php
+msgid "Invalid date"
+msgstr ""
+
+#: td-staff.php:50
+msgid "TD Staff: Another plugin is trying to access td_tech() before plugins_loaded. This may cause issues."
+msgstr ""
+
+#: includes/capabilities.php:35
+msgid "Failed to encrypt app password."
+msgstr ""
+
+#: includes/data/class-td-staff-exception.php:156
+msgid "Staff ID is required."
+msgstr ""
+
+#: includes/data/class-td-staff-exception.php:160
+msgid "Exception type is required."
+msgstr ""
+
+#: includes/data/class-td-staff-exception.php:164
+msgid "Invalid exception type."
+msgstr ""
+
+#: includes/data/class-td-staff-exception.php:168
+msgid "Start time is required."
+msgstr ""
+
+#: includes/data/class-td-staff-exception.php:172
+msgid "End time is required."
+msgstr ""
+
+#: includes/data/class-td-staff-exception.php:181
+msgid "End time must be after start time."
+msgstr ""
+
+#: includes/data/class-td-staff-exception.php:184
+msgid "Invalid datetime format."
+msgstr ""
+
+#: includes/helpers.php:144
+msgid "Sunday"
+msgstr ""
+
+#: includes/helpers.php:145
+msgid "Monday"
+msgstr ""
+
+#: includes/helpers.php:146
+msgid "Tuesday"
+msgstr ""
+
+#: includes/helpers.php:147
+msgid "Wednesday"
+msgstr ""
+
+#: includes/helpers.php:148
+msgid "Thursday"
+msgstr ""
+
+#: includes/helpers.php:149
+msgid "Friday"
+msgstr ""
+
+#: includes/helpers.php:150
+msgid "Saturday"
+msgstr ""
+
+#: includes/helpers.php:162
+msgid "Invalid email address."
+msgstr ""
+
+#: includes/rest/class-rest-staff.php:123
+msgid "Staff member not found."
+msgstr ""
+
+#: includes/rest/class-rest-staff.php:179
+msgid "Failed to update staff member."
+msgstr ""
+
+#: includes/rest/class-rest-staff.php:227
+msgid "Display name is required."
+msgstr ""
+
+#: includes/rest/class-rest-staff.php:231
+msgid "Email is required."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:43
+#: includes/admin/views/staff-list.php:20
+#: includes/admin/views/staff-edit.php:16
+msgid "Staff"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:44
+#: includes/admin/class-admin-menu.php:50
+msgid "All Staff"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:58
+#: includes/admin/views/staff-list.php:21
+msgid "Add New"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:66
+#: includes/admin/views/staff-edit.php:16
+msgid "Edit Staff Member"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:74
+#: includes/admin/views/staff-hours.php:24
+msgid "Work Hours"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:82
+#: includes/admin/views/staff-exceptions.php:24
+msgid "Exceptions"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:90
+#: includes/admin/views/settings.php:13
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:281
+msgid "Staff member updated successfully."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:284
+msgid "Staff member created successfully."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:293
+msgid "Failed to save staff member."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:338
+msgid "Work hours updated successfully."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:376
+msgid "Exception added successfully."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:378
+msgid "Failed to add exception."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:390
+msgid "Settings saved successfully."
+msgstr ""
+
+#: includes/admin/views/staff-list.php:42
+msgid "All Status"
+msgstr ""
+
+#: includes/admin/views/staff-list.php:43
+#: includes/admin/views/staff-edit.php:175
+#: includes/admin/views/staff-list.php:129
+msgid "Active"
+msgstr ""
+
+#: includes/admin/views/staff-list.php:44
+msgid "Inactive"
+msgstr ""
+
+#: includes/admin/views/staff-list.php:48
+msgid "All Skills"
+msgstr ""
+
+#: includes/admin/views/staff-list.php:56
+#: includes/admin/views/staff-list.php:65
+msgid "Filter"
+msgstr ""
+
+#: includes/admin/views/staff-list.php:60
+msgid "Search staff..."
+msgstr ""
+
+#: includes/admin/views/staff-list.php:61
+msgid "Search"
+msgstr ""
+
+#: includes/admin/views/staff-list.php:69
+msgid "Bulk Actions"
+msgstr ""
+
+#: includes/admin/views/staff-list.php:70
+msgid "Deactivate"
+msgstr ""
+
+#: includes/admin/views/staff-list.php:71
+msgid "Apply"
+msgstr ""
+
+#: includes/admin/views/staff-list.php:80
+msgid "Name"
+msgstr ""
+
+#: includes/admin/views/staff-list.php:81
+#: includes/admin/views/staff-edit.php:42
+msgid "Email"
+msgstr ""
+
+#: includes/admin/views/staff-list.php:82
+#: includes/admin/views/staff-edit.php:52
+msgid "Phone"
+msgstr ""
+
+#: includes/admin/views/staff-list.php:83
+#: includes/admin/views/staff-edit.php:93
+msgid "Skills"
+msgstr ""
+
+#: includes/admin/views/staff-list.php:84
+msgid "Status"
+msgstr ""
+
+#: includes/admin/views/staff-list.php:85
+msgid "Actions"
+msgstr ""
+
+#: includes/admin/views/staff-list.php:89
+msgid "No staff found."
+msgstr ""
+
+#: includes/admin/views/staff-list.php:103
+#: includes/admin/views/staff-list.php:110
+#: includes/admin/views/staff-list.php:149
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/views/staff-list.php:113
+#: includes/admin/views/staff-list.php:151
+#: includes/admin/views/staff-edit.php:222
+msgid "Hours"
+msgstr ""
+
+#: includes/admin/views/staff-list.php:117
+#: includes/admin/views/staff-list.php:153
+#: includes/admin/views/staff-edit.php:224
+msgid "Exceptions"
+msgstr ""
+
+#: includes/admin/views/staff-edit.php:32
+msgid "Display Name"
+msgstr ""
+
+#: includes/admin/views/staff-edit.php:62
+msgid "WordPress User"
+msgstr ""
+
+#: includes/admin/views/staff-edit.php:65
+msgid "— No WordPress User —"
+msgstr ""
+
+#: includes/admin/views/staff-edit.php:74
+msgid "Link this staff member to a WordPress user account (optional)."
+msgstr ""
+
+#: includes/admin/views/staff-edit.php:80
+msgid "Timezone"
+msgstr ""
+
+#: includes/admin/views/staff-edit.php:100
+msgid "Enter skills separated by commas (e.g., \"Plumbing, Electrical, HVAC\")."
+msgstr ""
+
+#: includes/admin/views/staff-edit.php:106
+msgid "Weight"
+msgstr ""
+
+#: includes/admin/views/staff-edit.php:112
+msgid "Priority weight for assignment (1-100, higher = more preferred)."
+msgstr ""
+
+#: includes/admin/views/staff-edit.php:118
+msgid "Cooldown Period"
+msgstr ""
+
+#: includes/admin/views/staff-edit.php:124
+msgid "Minimum seconds between assignments (0 = no cooldown)."
+msgstr ""
+
+#: includes/admin/views/staff-edit.php:130
+#: includes/admin/views/staff-list.php:131
+msgid "Status"
+msgstr ""
+
+#: includes/admin/views/staff-edit.php:140
+msgid "Nextcloud/CalDAV Integration"
+msgstr ""
+
+#: includes/admin/views/staff-edit.php:146
+msgid "Base URL"
+msgstr ""
+
+#: includes/admin/views/staff-edit.php:155
+msgid "Calendar Path"
+msgstr ""
+
+#: includes/admin/views/staff-edit.php:164
+msgid "Username"
+msgstr ""
+
+#: includes/admin/views/staff-edit.php:173
+msgid "App Password"
+msgstr ""
+
+#: includes/admin/views/staff-edit.php:179
+msgid "Leave blank to keep existing password."
+msgstr ""
+
+#: includes/admin/views/staff-edit.php:181
+msgid "Generate an app password in your Nextcloud settings."
+msgstr ""
+
+#: includes/admin/views/staff-edit.php:189
+msgid "Test Connection"
+msgstr ""
+
+#: includes/admin/views/staff-edit.php:197
+msgid "Update Staff Member"
+msgstr ""
+
+#: includes/admin/views/staff-edit.php:197
+msgid "Add Staff Member"
+msgstr ""
+
+#: includes/admin/views/staff-edit.php:199
+#: includes/admin/views/staff-hours.php:91
+#: includes/admin/views/staff-exceptions.php:130
+msgid "Cancel"
+msgstr ""
+
+#: includes/admin/views/staff-edit.php:207
+msgid "Quick Actions"
+msgstr ""
+
+#: includes/admin/views/staff-edit.php:209
+#: includes/admin/views/staff-hours.php:99
+msgid "Manage Work Hours"
+msgstr ""
+
+#: includes/admin/views/staff-edit.php:211
+#: includes/admin/views/staff-exceptions.php:137
+msgid "Manage Exceptions"
+msgstr ""
+
+#: includes/admin/views/staff-hours.php:28
+msgid "Back to Edit Staff Member"
+msgstr ""
+
+#: includes/admin/views/staff-hours.php:37
+msgid "Set the regular work hours for this staff member. Times are in the staff member's local timezone."
+msgstr ""
+
+#: includes/admin/views/staff-hours.php:38
+msgid "Timezone:"
+msgstr ""
+
+#: includes/admin/views/staff-hours.php:43
+#: includes/admin/views/staff-hours.php:49
+msgid "Enabled"
+msgstr ""
+
+#: includes/admin/views/staff-hours.php:44
+msgid "Day"
+msgstr ""
+
+#: includes/admin/views/staff-hours.php:45
+msgid "Start Time"
+msgstr ""
+
+#: includes/admin/views/staff-hours.php:46
+msgid "End Time"
+msgstr ""
+
+#: includes/admin/views/staff-hours.php:82
+msgid "Note: Currently only one time period per day is supported. Multiple shifts per day will be supported in a future version."
+msgstr ""
+
+#: includes/admin/views/staff-hours.php:88
+msgid "Save Work Hours"
+msgstr ""
+
+#: includes/admin/views/staff-hours.php:96
+msgid "Related Actions"
+msgstr ""
+
+#: includes/admin/views/staff-hours.php:101
+#: includes/admin/views/staff-exceptions.php:139
+msgid "All Staff"
+msgstr ""
+
+#: includes/admin/views/staff-exceptions.php:28
+msgid "Back to Edit Staff Member"
+msgstr ""
+
+#: includes/admin/views/staff-exceptions.php:36
+msgid "Add New Exception"
+msgstr ""
+
+#: includes/admin/views/staff-exceptions.php:45
+msgid "Type:"
+msgstr ""
+
+#: includes/admin/views/staff-exceptions.php:47
+msgid "Select type..."
+msgstr ""
+
+#: includes/admin/views/staff-exceptions.php:48
+#: includes/data/class-td-staff-exception.php:123
+msgid "Holiday"
+msgstr ""
+
+#: includes/admin/views/staff-exceptions.php:49
+#: includes/data/class-td-staff-exception.php:125
+msgid "Sick Day"
+msgstr ""
+
+#: includes/admin/views/staff-exceptions.php:50
+#: includes/data/class-td-staff-exception.php:127
+msgid "Custom"
+msgstr ""
+
+#: includes/admin/views/staff-exceptions.php:54
+msgid "Start:"
+msgstr ""
+
+#: includes/admin/views/staff-exceptions.php:56
+#: includes/admin/views/staff-exceptions.php:61
+msgid "Time in %s"
+msgstr ""
+
+#: includes/admin/views/staff-exceptions.php:59
+msgid "End:"
+msgstr ""
+
+#: includes/admin/views/staff-exceptions.php:64
+msgid "Note:"
+msgstr ""
+
+#: includes/admin/views/staff-exceptions.php:65
+msgid "Optional note..."
+msgstr ""
+
+#: includes/admin/views/staff-exceptions.php:69
+msgid "Add Exception"
+msgstr ""
+
+#: includes/admin/views/staff-exceptions.php:75
+msgid "Current Exceptions"
+msgstr ""
+
+#: includes/admin/views/staff-exceptions.php:78
+msgid "No exceptions found."
+msgstr ""
+
+#: includes/admin/views/staff-exceptions.php:83
+msgid "Type"
+msgstr ""
+
+#: includes/admin/views/staff-exceptions.php:84
+msgid "Start"
+msgstr ""
+
+#: includes/admin/views/staff-exceptions.php:85
+msgid "End"
+msgstr ""
+
+#: includes/admin/views/staff-exceptions.php:86
+msgid "Duration"
+msgstr ""
+
+#: includes/admin/views/staff-exceptions.php:87
+msgid "Note"
+msgstr ""
+
+#: includes/admin/views/staff-exceptions.php:88
+msgid "Actions"
+msgstr ""
+
+#: includes/admin/views/staff-exceptions.php:126
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/views/staff-exceptions.php:135
+msgid "Related Actions"
+msgstr ""
+
+#: includes/admin/views/settings.php:13
+msgid "TD Staff Settings"
+msgstr ""
+
+#: includes/admin/views/settings.php:22
+msgid "Default Nextcloud Base URL"
+msgstr ""
+
+#: includes/admin/views/settings.php:27
+msgid "Default base URL that will be pre-filled when adding new staff members."
+msgstr ""
+
+#: includes/admin/views/settings.php:33
+msgid "Data Management"
+msgstr ""
+
+#: includes/admin/views/settings.php:37
+msgid "Allow hard uninstall to remove all data"
+msgstr ""
+
+#: includes/admin/views/settings.php:40
+msgid "When enabled, uninstalling the plugin will permanently delete all staff data, work schedules, and exceptions. When disabled, data is preserved even after uninstall."
+msgstr ""
+
+#: includes/admin/views/settings.php:46
+msgid "Save Settings"
+msgstr ""
+
+#: includes/admin/views/settings.php:52
+msgid "API Information"
+msgstr ""
+
+#: includes/admin/views/settings.php:54
+msgid "This plugin provides both PHP and REST APIs for other plugins to access staff data."
+msgstr ""
+
+#: includes/admin/views/settings.php:56
+msgid "REST API Endpoints"
+msgstr ""
+
+#: includes/admin/views/settings.php:59
+msgid "Method"
+msgstr ""
+
+#: includes/admin/views/settings.php:60
+msgid "Endpoint"
+msgstr ""
+
+#: includes/admin/views/settings.php:61
+msgid "Description"
+msgstr ""
+
+#: includes/admin/views/settings.php:66
+msgid "List all staff"
+msgstr ""
+
+#: includes/admin/views/settings.php:70
+msgid "Get single staff member"
+msgstr ""
+
+#: includes/admin/views/settings.php:74
+msgid "Get staff work hours"
+msgstr ""
+
+#: includes/admin/views/settings.php:78
+msgid "Get staff exceptions"
+msgstr ""
+
+#: includes/admin/views/settings.php:82
+msgid "Create new staff member (admin only)"
+msgstr ""
+
+#: includes/admin/views/settings.php:86
+msgid "Update staff member (admin only)"
+msgstr ""
+
+#: includes/admin/views/settings.php:90
+msgid "PHP API Example"
+msgstr ""
+
+#: includes/admin/views/settings.php:107
+msgid "System Information"
+msgstr ""
+
+#: includes/admin/views/settings.php:112
+msgid "Plugin Version"
+msgstr ""
+
+#: includes/admin/views/settings.php:116
+msgid "API Version"
+msgstr ""
+
+#: includes/admin/views/settings.php:120
+msgid "Database Version"
+msgstr ""
+
+#: includes/admin/views/settings.php:124
+msgid "Encryption Available"
+msgstr ""
+
+#: includes/admin/views/settings.php:127
+msgid "Yes (AES-256-GCM)"
+msgstr ""
+
+#: includes/admin/views/settings.php:129
+msgid "No (OpenSSL not available)"
+msgstr ""
+
+#: includes/admin/views/settings.php:134
+msgid "Total Staff"
+msgstr ""
+
+#: includes/admin/views/settings.php:140
+msgid "%d total (%d active)"
+msgstr ""
+
+#: includes/admin/views/settings.php:145
+msgid "WordPress Version"
+msgstr ""
+
+#: includes/admin/views/settings.php:149
+msgid "PHP Version"
+msgstr ""
+
+# New strings for v1.1.0 - Admin Menu Updates
+#: includes/admin/class-admin-menu.php:189
+msgid "All Staff"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:192
+msgid "Add New Staff"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:196
+msgid "Edit Staff Member"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:199
+msgid "View Staff Member"
+msgstr ""
+
+# Staff Edit Form
+#: includes/admin/views/staff-edit.php:220
+msgid "Update Staff Member"
+msgstr ""
+
+#: includes/admin/views/staff-edit.php:220
+msgid "Add Staff Member"
+msgstr ""
+
+# Settings Page Updates
+#: includes/admin/views/settings.php:16
+msgid "TD Staff Settings"
+msgstr ""
+
+#: includes/admin/views/settings.php:34
+msgid "Default base URL that will be pre-filled when adding new staff members."
+msgstr ""
+
+#: includes/admin/views/settings.php:50
+msgid "When enabled, uninstalling the plugin will permanently delete all staff data, work schedules, and exceptions. When disabled, data is preserved even after uninstall."
+msgstr ""
+
+#: includes/admin/views/settings.php:70
+msgid "Export Staff Data"
+msgstr ""
+
+#: includes/admin/views/settings.php:71
+msgid "Export all staff data, work schedules, and exceptions. CalDAV credentials are excluded for security."
+msgstr ""
+
+#: includes/admin/views/settings.php:90
+msgid "Include inactive staff"
+msgstr ""
+
+#: includes/admin/views/settings.php:109
+msgid "Import Staff Data"
+msgstr ""
+
+#: includes/admin/views/settings.php:110
+msgid "Import staff data from a previously exported JSON file."
+msgstr ""
+
+#: includes/admin/views/settings.php:133
+msgid "Are you sure? This will modify your staff data."
+msgstr ""
+
+#: includes/admin/views/settings.php:142
+msgid "Imported staff will need CalDAV credentials configured manually."
+msgstr ""
+
+#: includes/admin/views/settings.php:152
+msgid "This plugin provides both PHP and REST APIs for other plugins to access staff data."
+msgstr ""
+
+#: includes/admin/views/settings.php:167
+msgid "List all staff"
+msgstr ""
+
+#: includes/admin/views/settings.php:172
+msgid "Get single staff member"
+msgstr ""
+
+#: includes/admin/views/settings.php:177
+msgid "Get staff work hours"
+msgstr ""
+
+#: includes/admin/views/settings.php:182
+msgid "Get staff exceptions"
+msgstr ""
+
+#: includes/admin/views/settings.php:187
+msgid "Create new staff member (admin only)"
+msgstr ""
+
+#: includes/admin/views/settings.php:192
+msgid "Update staff member (admin only)"
+msgstr ""
+
+#: includes/admin/views/settings.php:216
+msgid "Total Staff"
+msgstr ""
+
+# Hours and Exceptions Views
+#: includes/admin/views/staff-hours.php:247
+msgid "All Staff"
+msgstr ""
+
+#: includes/admin/views/staff-exceptions.php:159
+msgid "All Staff"
+msgstr ""
+
+# Placeholders
+#: includes/admin/views/settings.php:32
+msgid "https://cloud.example.com"
+msgstr ""
+
+#: includes/admin/views/staff-edit.php:177
+msgid "https://cloud.example.com"
+msgstr ""
+
+#: includes/admin/views/staff-edit.php:188
+msgid "/remote.php/dav/calendars/username/personal/"
+msgstr ""
+
+# JavaScript Localized Strings
+#: includes/admin/class-admin-menu.php:77
+msgid "✅ Week Copied"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:78
+msgid "📋 Copy Week"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:79
+msgid "This will replace all current work hours. Continue?"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:80
+msgid "This will clear all work hours. Continue?"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:81
+msgid "This will replace current work hours with the selected template. Continue?"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:84
+msgid "Testing..."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:85
+msgid "Test Connection"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:86
+msgid "Please fill in all CalDAV fields before testing."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:87
+msgid "Connection test failed."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:90
+msgid "Are you sure you want to delete this exception?"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:91
+msgid "Failed to delete exception."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:94
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:95
+msgid "Please enter a valid phone number."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:96
+msgid "URL must use HTTP or HTTPS protocol."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:97
+msgid "Please enter a valid URL."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:98
+msgid "All CalDAV fields are required when any CalDAV field is provided."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:99
+msgid "Display name is required."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:100
+msgid "Email is required."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:101
+msgid "Weight must be between 1 and 100."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:102
+msgid "Cooldown must be non-negative."
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:105
+msgid "Remove"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:106
+msgid "to"
+msgstr ""
+
+#: includes/admin/class-admin-menu.php:107
+msgid "+ Add Shift"
+msgstr ""
